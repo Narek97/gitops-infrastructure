@@ -6,4 +6,4 @@ metadata:
 data:
   NODE_ENV: development
   LOG_LEVEL: debug
-  APP_VERSION: v1.0.0
+  APP_VERSION: v1.0.1
