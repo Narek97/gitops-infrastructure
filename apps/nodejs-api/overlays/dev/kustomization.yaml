@@ -1,0 +1,13 @@
+
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: nodejs-dev
+
+resources:
+  - ../../base
+  - configmap.yaml
+
+images:
+  - name: ghcr.io/narek97/nodejs-api
+    newTag: v1.0.0
